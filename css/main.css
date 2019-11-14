@@ -123,6 +123,10 @@ h4 {
 }
 .footer-nav a {
   color: #ccc;
+  size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* COLUMN STYLES */
@@ -395,4 +399,10 @@ h4 {
   background-size: cover;
   height: 6em;
   margin-bottom: 1.5em;
+}
+.blog-title-list img {
+  border-radius: 99px;
+  display: inline-block;
+  height: 2.5em;
+  vertical-align: middle;
 }
