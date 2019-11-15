@@ -107,7 +107,7 @@ h4 {
   display: block;
 }
 .dropdown:hover .drop-trigger:after {
-  border-color: transparent transparent #ed6e2f;
+  border-color: #ed6e2f transparent transparent;
 }
 .drop-trigger {
   display: inline-block;
@@ -143,10 +143,12 @@ h4 {
   top: -0.1em;
   width: 0;
 }
-.drop-menu li {
+.drop-menu li,
+.footer .drop-menu li {
   background-color: #fff;
 }
-.drop-menu li ~ li {
+.drop-menu li ~ li,
+.footer .drop-menu li ~ li {
   border-top: 1px dotted rgba(0, 0, 0, 0.1);
 }
 .drop-menu li:first-child {
@@ -160,7 +162,8 @@ h4 {
 .drop-menu li:last-child {
   border-radius: 0 0 5px 5px;
 }
-.drop-menu a {
+.drop-menu a,
+.footer .drop-menu a {
   color: #333;
   display: block;
   font-weight: normal;
@@ -169,7 +172,8 @@ h4 {
   text-transform: none;
   white-space: nowrap;
 }
-.drop-menu a:hover {
+.drop-menu a:hover,
+.footer .drop-menu a:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: #333;
 }
