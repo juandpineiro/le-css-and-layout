@@ -1,1 +1,6 @@
+# Ignore Jekyll build files
 _site/
+.jekyll-cache/
+
+# Ignore Bundle directory
+.bundle/
